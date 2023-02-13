@@ -55,3 +55,15 @@ function showSlides(n) {
 document.getElementById('send').addEventListener('click', function(){
    document.getElementById('Formulario').style.display = 'block'; 
 })
+
+document.getElementById('send').addEventListener('click', function(){
+   document.getElementById('close').style.display = 'block'; 
+})
+
+document.getElementById('close').addEventListener('click', function(){
+   document.getElementById('Formulario').style.display = 'none'; 
+})
+
+document.getElementById('close').addEventListener('click', function(){
+   document.getElementById('close').style.display = 'none'; 
+})
