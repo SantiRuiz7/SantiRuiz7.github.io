@@ -51,3 +51,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+document.getElementById('send').addEventListener('click', function(){
+   document.getElementById('Formulario').style.display = 'block'; 
+})

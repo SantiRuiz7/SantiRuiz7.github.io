@@ -144,10 +144,6 @@ nav{
   font-size: 30px;
 }
 
-h1{
-  border-top: solid;
-}
-
 h2{
   border-top: solid;
 }
@@ -253,4 +249,36 @@ article{
   font-size: 24px;
   top: auto;
   padding-left: 20%
+}
+
+.Contacto{
+  display: none;
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    padding-left: 0px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 0px;
+    top: 1000px;
+    left: 1000px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.botondeenviar{
+  border: 1px white ;
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  padding-left: 0px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 0px;
+  top: 1000px;
+  left: 800px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
 }
