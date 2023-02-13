@@ -69,6 +69,12 @@ aside{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
 }
+
+.Datos{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 p{
   text-indent: 50px;
   text-align: justify;
@@ -78,7 +84,7 @@ p{
 nav{
   left: 0px;
   position: absolute;
-  top: 900px;
+  top: 1000px;
   width: 400px;
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
