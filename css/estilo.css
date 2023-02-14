@@ -3,7 +3,8 @@ html{
 }
 
 .Foto {
-    width: 100%;
+    padding: 5%;
+    width: 80%;
     height: auto;
     background-image: url('img_flowers.jpg');
     background-repeat: no-repeat;
@@ -12,27 +13,27 @@ html{
 
   img{
     max-width: 100%;
-    height: 400px;
+    height: 200px;
   }
 
   .Nombre {
     color: white;
     font-size: 48px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 900px;
-    top: 180px;
-    border-top: solid;
+    position: relative;
+    left: 40%;
+    top: 20%;
+  
   }
 
 .correo{
-  top: 250px;
-  left: 880px;
-  position: absolute;
+  top: 30%;
+  left: 40%;
+  position: relative;
   font-size: 28px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-  border-top: solid;
+
 }
 
 #Persona{
@@ -61,10 +62,10 @@ html{
 }
 
 aside{
-  position: absolute;
-  top: 450px;
-  width: 300px;
-  left: 20px;
+  position: relative;
+  top: 2%;
+  width: 15%;
+  left: 1%;
   font-size: 13px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
@@ -159,10 +160,10 @@ img {vertical-align: middle;}
 
 /* Contenedor Slideshow */
 .slideshow-container {
-  max-width: 60%;
-  height: auto;
+  max-width: 30%;
+  height: 30%;
   position: relative;
-  margin: auto;
+  left: 40%;
 }
 
 /* Siguiente y Anterior */
@@ -242,9 +243,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-article{
-  padding-left: 20%;
-}
+
 .Portfolio{
   color: white;
   font-size: 24px;
@@ -309,4 +308,15 @@ article{
   font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
+}
+
+.Portfolio{
+    width:80% ;
+    height:auto ;
+    position: relative;
+    padding-left: 0px;
+    left: 1%;
+    top: 20%;
+    height: auto;
+    bottom: 550px;
 }
