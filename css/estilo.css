@@ -262,13 +262,14 @@ img:hover {
 
 
 .edu{
+  padding-top: 50px;
   margin-top: 10%;
   text-align: center;
   text-decoration: none;
   left: 5%;
   position: relative;
   width: 80%;
-  font-size: 13px;
+  font-size: 22px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   background-color: #08415C;
