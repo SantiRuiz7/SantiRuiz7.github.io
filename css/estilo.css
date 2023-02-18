@@ -27,7 +27,7 @@ html{
   }
 
 .correo{
-  text-decoration: none;
+  text-decoration: solid;
   top: 30%;
   left: 38%;
   position: relative;
@@ -278,12 +278,14 @@ img:hover {
 }
 
 .tec{
+  text-align: center;
   left: 5%;
   position: relative;
   width: 80%;
   background-color: #08415C;
   height: 200px;
   border-radius: 5px;
+  align-items: center;
 }
 
 .obj{
@@ -301,6 +303,10 @@ img:hover {
 }
 
 .pie{
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
   background-color: #08415C;
   background-size: cover;
   width: 100%;
@@ -308,6 +314,11 @@ img:hover {
 }
 
 i{
-  color: orange;
+  color: white;
   font-size: 58px;
 }
+
+.fa-brands {
+  padding: 5%;
+}
+
